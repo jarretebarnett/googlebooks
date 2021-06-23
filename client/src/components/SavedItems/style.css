@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
-.form-control {
-    margin: 12px 0 12px 0;
-}
-
-.form-group {
-    font-family: 'Raleway';
-}
-
-.btn.submitBtn {
+.card-body {
     font-family: 'Raleway';
 }
