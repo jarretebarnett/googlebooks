@@ -1,7 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+div.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+nav.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
 .navbar {
-    /* background-color: #2196f3; */
     margin-bottom: 10px;
     font-family: 'Raleway';
     color: snow;
@@ -13,4 +32,12 @@ a.navbar-brand {
 
 a.nav-link {
     color: snow;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.025);
+}
+
+.nav-link:hover {
+    transform: scale(1.025);
 }
